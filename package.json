@@ -3,9 +3,11 @@
     "version": "0.1.0",
     "description": "Name cloud resources easily.",
     "main": "build/index.js",
+    "types": "build/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "test": "jest"
+        "test": "jest",
+        "prepublish": "npm run build"
     },
     "repository": {
         "type": "git",
